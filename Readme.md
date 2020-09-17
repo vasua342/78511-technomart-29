@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [vasua chistyakov](https://up.htmlacademy.ru/htmlcss/29/user/78511).
-* Наставник: `Ярослав Макаренко`.
+* Наставник: `Ярослав Макаренко`https://htmlacademy.ru/profile/id234926
 
 ---
 
