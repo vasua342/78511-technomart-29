@@ -6,153 +6,173 @@
   </head>
   <body>
     <header>
-       <div>
-            <h2>Техномарт</h2>
-            <a href="#"><img src="tehnomart.png" alt=tehnomartlogo></a>
+      <div>
+            <p>Техномарт</p><!--Переделал заголовок h2 на p-->
+              <a href="#"><img src="tehnomart.png" alt=tehnomartlogo></a>
           <form action="https://blank.html" method="get">
-            <input type="search" name="search" id="search" value="">
-            <button type="submit" value="Поиск">Поиск</button>
+              <input type="search" name="search" id="search" value="">
+              <button type="submit" value="Поиск">Поиск</button>
           </form>
-          <a href="#">Закладки:0</a>
-          <a href="#">Корзина:10</a>
-          <a href="#">Оформить заказ</a> 
+              <a href="#">Закладки:0</a>
+              <a href="#">Корзина:10</a>
+              <a href="#">Оформить заказ</a> 
       </div>
-         <h1>
-          Интернет-магазин<br>
-             строительных материалов<br>
-             и инструментов для ремонта
-         </h1>
-          <a href="tel:+7(812)555-05-55">+7(812)555-05-55</a>
-          <p>г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8</p>
-          <p>Равшан Джамшутович</p>
-          <p>Мои заказы</p>
-          <p>Личный кабинет</p>
-      <nav>
-        <ul>
-          <li><a href="#">Главная</a></li>
-          <li><a href="#">Компания</a></li>
-          <li><a href="#">Каталог</a></li>
-          <li><a href="#">Новости</a></li>
-          <li><a href="#">Спецпредложения</a></li>
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Контакты</a></li>  
-        </ul>
+      <div>    <!--Обернул весь блок в div-->
+              <p><!--Заменил h1 на p-->
+               Интернет-магазин<br>
+               строительных материалов<br>
+               и инструментов для ремонта
+              </p>
+          <div>   <!--Обернул телефон в div-->
+               <a href="tel:+7(812)555-05-55">+7(812)555-05-55</a>
+          </div>
+          <div>   <!--Обернул адрес в div-->
+               <p>г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8</p>
+          </div>
+      </div>
+      <div>   <!--Общий div-->
+           <div>
+               <a href="#">Равшан Джамшутович</a><!--добавил ссылки-->
+               <a href="#">iconexit</a><!--иконкда для двери выход-->
+           </div>
+           <div>
+               <a href="#">Мои заказы</a><!--добавил ссылки-->
+               <a href="#">Личный кабинет</a>
+           </div>
+      </div>
+         <nav>
+           <ul>
+             <li><a href="#">Главная</a></li>
+             <li><a href="#">Компания</a></li>
+             <li><a href="#">Каталог</a></li>
+             <li><a href="#">Новости</a></li>
+             <li><a href="#">Спецпредложения</a></li>
+             <li><a href="#">Доставка</a></li>
+             <li><a href="#">Контакты</a></li>  
+          </ul>
       </nav>
     </header>
     <main>
        <div>
           <ul>
-            <li>Каталог</li>
-            <li>Инструмент</li>
-            <li>Перфораторы</li>   
+            <li><a href="#">icon home</a></li><!--ссылка (иконка дом)-->
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Инструмент</a></li>
+            <li><a href="#">Перфораторы</a></li>   
           </ul>
        </div>
-          <h1>Перфораторы</h1>
-          <form>
-            <fieldset>
-              <legend>Сортировка:</legend>
-              <ul>
-                <li>По цене</li>
-                <li>По типу</li>
-                <li>По функционалу</li>
-              </ul>
-            </fieldset>
-          </form>
-          <section>
+            <h1>Перфораторы</h1>
+              <section>
+                <h2>Сортировка:</h2><!--Добавление h2 секции сортировка-->
+                  <ul>
+                    <li><a href="#">По цене</a></li> <!--добавление списка и ссылок-->
+                    <li><a href="#">По типу</a></li>
+                    <li><a href="#">По функционалу</a></li>
+                    <li><a href="#">up</a></li> <!--ссылки для иконки треугольников-->
+                    <li><a href="#">down</a></li>
+                  </ul>
+              </section>
+           <section>
                 <h3>Карточки товаров</h3>
             <div>
                 <img src="perfbfg6000.png" width="144" height="128" alt="bfg 6000">
-                <h3>Перфоратор Bosh BFG 6000</h3>
-                <p>30500Р.</p>
-                <p>25500Р.</p>
+                 <h3>Перфоратор Bosh BFG 6000</h3>
+                  <p>30500Р.</p>
+                  <p>25500Р.</p>
            </div>
            <div>
                 <img src="perfbfg6000.png" width="144" height="128" alt="bfg 6000">
+                 <h3>Перфоратор Bosh BFG 6000</h3>
+                  <p>30500Р.</p>
+                  <p>25500Р.</p>
+            </div>
+            <div>
+                   <a href="newcatalog.html">New</a>
+              <div>
+                    <button>Купить</button>
+                    <button>В закладки</button>
+              </div>
+                   <h3>Перфоратор Bosh BFG 6000</h3>
+                   <p>30500Р.</p>
+                   <p>25500Р.</p>
+           </div>
+          <div>
+              <a href="newcatalog.html">New</a>
+                <p><img src="bfg3000" width="127" height="112" alt="bfg 3000"></p>
+                <h3>Перфоратор Bosh BFG 3000</h3>
+                <p>22500Р.</p>
+                <p>15500Р.</p> 
+          </div>
+           <div>
+                <img src="bfg6000.png" width="127" height="112" alt="bfg 6000">
                 <h3>Перфоратор Bosh BFG 6000</h3>
                 <p>30500Р.</p>
                 <p>25500Р.</p>
-            </div>
-            <div>
-                 <a href="newcatalog.html">New</a>
-              <div>
-                 <button>Купить</button>
-              </div>
-              <div>
-                 <button>В закладки</button>
-              </div>
-               <h3>Перфоратор Bosh BFG 6000</h3>
-               <p>30500Р.</p>
-               <p>25500Р.</p>
-           </div>
-           <div>
-              <a href="newcatalog.html">New</a>
-              <p><img src="bfg3000" width="127" height="112" alt="bfg 3000"></p>
-              <h3>Перфоратор Bosh BFG 3000</h3>
-              <p>22500Р.</p>
-              <p>15500Р.</p> 
-           </div>
-           <div>
-             <img src="bfg6000.png" width="127" height="112" alt="bfg 6000">
-             <h3>Перфоратор Bosh BFG 6000</h3>
-             <p>30500Р.</p>
-             <p>25500Р.</p>
            </div> 
            <div>
-              <a href="newcatalog.html">New</a>
-              <p><img src="bfg2000" width="127" height="112" alt="bfg 2000"></p>
-              <h3>Перфоратор Bosh BFG 2000</h3>
-              <p>12500Р.</p> 
+                <a href="newcatalog.html">New</a>
+                <p><img src="bfg2000" width="127" height="112" alt="bfg 2000"></p>
+                <h3>Перфоратор Bosh BFG 2000</h3>
+                <p>12500Р.</p> 
           </div>
           <div>
-              <a href="newcatalog.html">New</a>
-              <p><img src="bfg3000" width="127" height="112" alt="bfg 3000"></p>
-              <h3>Перфоратор Bosh BFG 3000</h3>
-              <p>22500Р.</p>
-              <p>15500Р.</p>
+                <a href="newcatalog.html">New</a>
+                <p><img src="bfg3000" width="127" height="112" alt="bfg 3000"></p>
+                <h3>Перфоратор Bosh BFG 3000</h3>
+                <p>22500Р.</p>
+                <p>15500Р.</p>
           </div>
           <div>
-             <img src="bfg6000.png" width="127" height="112" alt="bfg 6000">
-             <h3>Перфоратор Bosh BFG 6000</h3>
-             <p>30500Р.</p>
-             <p>25500Р.</p>
+                <img src="bfg6000.png" width="127" height="112" alt="bfg 6000">
+                <h3>Перфоратор Bosh BFG 6000</h3>
+                <p>30500Р.</p>
+                <p>25500Р.</p>
           </div>
           <div>
-              <a href="newcatalog.html">New</a>
-              <p><img src="bfg2000" width="127" height="112" alt="bfg 2000"></p>
-              <h3>Перфоратор Bosh BFG 2000</h3>
-              <p>12500Р.</p>
+                <a href="newcatalog.html">New</a>
+                <p><img src="bfg2000" width="127" height="112" alt="bfg 2000"></p>
+                <h3>Перфоратор Bosh BFG 2000</h3>
+                <p>12500Р.</p>
           </div>
       </section>
-      <aside>
-          <form>
-              <fieldset>
-                <legend>Фильтр:</legend>
-                <p> Цена:</p>
-                <input type="range" min="0" max="30000">
-              </fieldset>
-          </form>
-          <form>
-               <fieldset>
-                     <legend>Производители:</legend>
-                     <input type="checkbox" checked>Bosh<br>
-                     <input type="checkbox">Интерскол<br>
-                     <input type="checkbox" checked>Makita<br>
-                     <input type="checkbox">Dewalt<br>
-                     <input type="checkbox">Hitachi<br>
+      <section><!--замена aside на section-->
+                <h2> Фильтр:</h2> <!--добавление h2-->
+              <form action="" method="">        <!-- одна форма на весь блок-->
+                 <fieldset>
+                    <legend> Цена:</legend> <!--legend для цены-->
+                 <div>
+                   <input type="text" name="min" value="0">
+                   <input type="text" name="max" value="30000">
+                 </div>
                </fieldset>
-          </form>     
-          <form>
-                     <fieldset>
-                     <legend>Питание:</legend>
-                     <input type="radio" name="knopka1" checked>Аккумуляторные<br>
-                     <input type="radio" name="knopka2">Сетевые<br>
-                     </fieldset>
-          </form>
-           <div>
-                <button>Показать</button>
-           </div>     
-      </aside>
-        <div class="pagination">
+               <fieldset>
+                    <legend>Производители:</legend>
+                     <ul>
+                       <li><input type="checkbox" id="bosh" name="bosh" checked>
+                           <label for="bosh">Bosh</label></li> <!--добавление label и списка-->
+                            <li><input type="checkbox" id="interskol" name="interskol">
+                              <label for="interskol">Интерскол</label></li>
+                                <li> <input type="checkbox" id="makita"checked name="makita">
+                                  <label for="makita">Makita</label></li>
+                                <li><input type="checkbox" id="dewalt" name="dewalt">
+                               <label for="dewalt">Dewalt</label></li>
+                             <li><input type="checkbox" id="hitachi" name="hitachi">
+                            <label for="hitachi">Hitachi</label></li>
+                      </ul>
+                </fieldset>     
+                <fieldset>
+                      <legend>Питание:</legend>
+                      <ul>
+                        <li><input type="radio" name="knopka1" id="akkomulatori" checked>
+                             <label for="akkomulatori">Аккумуляторные</label></li>
+                        <li> <input type="radio" name="knopka2" id="setevie">
+                              <label for="setevie">Сетевые</label></li>
+                      </ul>
+                </fieldset>
+                   <input type="submit" name="buttonform" value="Показать"><!--кнопка отправки формы.Что то здесь неверно.Как собрать все данные от форм в одну кнопку?-->
+              </form>    
+      </section>
+        <div class="pagination"><!-- на этот блок комментариев не было,но кажется что что-то неправильно-->
           <ul>
             <li>1</li>
             <li>2</li>
@@ -161,7 +181,7 @@
           </ul>
         </div> 
         <section>
-          <h3>Пара слов о перфораторах</h3>
+          <h2>Пара слов о перфораторах</h2><!--Добавление заголовка h2-->
         <p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче,бетоне и камне<br>
            Существуют электромеханические и пневматические перфораторы. Современные модели могут выполонять функции дрели,шуруповерта и отбойного молотка.<br>
          В ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
