@@ -226,7 +226,6 @@ img {
 }
 .buy {
 	font-family: "Cuprum",sans-serif;
-	font-style: "Regular";
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 400;
@@ -236,7 +235,6 @@ img {
 }
 .to-bookmarks {
 	font-family: "Cuprum",sans-serif;
-	font-style: "Regular";
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 400;
@@ -255,7 +253,6 @@ img {
 }
 .price-button {
 	font-family: "PT Sans";
-	font-style: "Bold";
 	font-size: 17px;
 	line-height: 18px;
 	font-weight: 700;
@@ -264,7 +261,6 @@ img {
 }
 .popular-brends h2 {
 	font-family: "Cuprum" sans-serif;
-	font-style: "Regular";
 	font-size: 30px;
 	line-height: 30px;
 	color: var(--basic-dark-blue);
@@ -272,7 +268,6 @@ img {
 }
 .all-brends {
 	font-family: "Cuprum",sans-serif;
-	font-style: "Regular";
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 400;
@@ -289,7 +284,6 @@ img {
 }
 .dostavka {
 	font-family: "Cuprum",sans-serif;
-	font-style: "Bold";
 	font-size: 21px;
 	line-height: 30px;
 	font-weight: 700;
@@ -298,7 +292,6 @@ img {
 }
 .warranty {
     font-family: "Cuprum",sans-serif;
-	font-style: "Bold";
 	font-size: 21px;
 	line-height: 30px;
 	font-weight: 700;
@@ -307,7 +300,6 @@ img {
 }
 .credit {
 	font-family: "Cuprum",sans-serif;
-	font-style: "Bold";
 	font-size: 21px;
 	line-height: 30px;
 	font-weight: 700;
@@ -317,14 +309,12 @@ img {
 }
 .services h2 {
 	font-family: "Cuprum",sans-serif; /*не срабатывает*/
-	font-style: "Regular";
 	font-size: 30px;
 	line-height: 30px;
 	font-weight: 400;
 }
 .services p {
 	font-family: "PT Sans";
-	font-style: "Regular";
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: 400;
@@ -335,7 +325,6 @@ img {
 }
 .service-list-answer h3{
 	font-family: "Cuprum",sans-serif;
-	font-style: "Regular";
 	font-size: 30px;
 	line-height: 30px;
 	font-weight: 400;
@@ -343,7 +332,6 @@ img {
 }
 .service-list-answer h3 p {
 	font-family: "PT Sans";
-	font-style: "Regular";
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: 400;
@@ -352,7 +340,6 @@ img {
 
 .tehnomart h2 {
 	font-family: "Cuprum",sans-serif;
-	font-style: "Regular";
 	font-size: 30px;
 	line-height: 30px;
 	font-weight: 400;
@@ -360,7 +347,6 @@ img {
 }
 .tehnomart p {
 	font-family: "PT Sans";
-	font-style: "Regular";
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: 400;
@@ -372,7 +358,6 @@ img {
 }
 .delivery-item {
 	font-family: "Cuprum",sans-serif;
-	font-style: "Regular";
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 400;
@@ -380,7 +365,6 @@ img {
 }
 .about-company {
 	font-family: "Cuprum",sans-serif;
-	font-style: "Regular";
 	font-size: 14px;
 	line-height: 18px;
 	color: var(--basic-white);
@@ -389,7 +373,6 @@ img {
 }
 .kontakts h3 {
 	font-family: "Cuprum",sans-serif;
-	font-style: "Regular";
 	font-size: 30px;
 	line-height: 30px;
 	font-weight: 400;
@@ -405,7 +388,6 @@ img {
 }
 .write-to-us {
 	font-family: "Cuprum",sans-serif;
-	font-style: "Regular";
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 400;
@@ -417,7 +399,6 @@ img {
 }
 .main-footer p {
     font-family: "PT Sans";
-	font-style: "Regular";
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 400;
@@ -428,7 +409,6 @@ img {
 }
 .footer-list-item-up a {
 	font-family: "Cuprum",sans-serif;
-	font-style: "Regular";
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 400;
@@ -440,7 +420,6 @@ img {
 }
 .footer-list-navigation-down a {
 	font-family: "Cuprum",sans-serif;
-	font-style: "Regular";
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 400;
@@ -452,7 +431,6 @@ img {
 }
 .page-footer p {
   font-family: "Cuprum",sans-serif;
-  font-style: "Regular";
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
