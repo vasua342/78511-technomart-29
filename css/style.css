@@ -13,7 +13,7 @@ body {
 	min-width: 960px;
 	margin: 0;
 	padding: 0;
-	font-family: "PT Sans",Arial", sans-serif;                                                                                                                                                                                        
+	font-family: "PT Sans",Arial, sans-serif;/*исправил кавычку*/                                                                                                                                                                                        
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 400;
@@ -29,72 +29,70 @@ img {
 	height: auto;
 }
 .search-button {
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 24px;
-	color: var(--basic-white);
+
 }
-.main-menu {
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 24px;
+.main-menu-top {
 	font-family: "Cuprum",sans-serif;
 	color: var(--basic-black);
 }
-.main-menu-enter {
+.main-menu-middle {
 	font-size: 21px;
 	font-weight: 400;
 	line-height: 21px;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
+   /*font-style: italic;Сделал italic,но я ниже это же вроде сделал main-menu-enter h1
+	для заголовка*/
 	color: var(--basic-black #000000);
 }
-.main-menu-enter h2 {
+.main-menu-middle h1 {
 	font-size: 16px;
 	font-weight: 400;
-	font-style: italic;
+	font-style:italic;
 	line-height: 23px;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	color: #EE3643;
 }
-.main-menu-enter p {
-	font-family: "Cuprum";
+.main-menu-middle p {
+	font-family: "Cuprum",sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 24px;
 	color: var(--basic-dark-blue #32425C);
 }
 .phone-number {
+	text-transform: uppercase;
 }
 .login-link,
 .registration {
 	font-size: 21px;
 	font-weight: 400;
 	line-height: 21px;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	color: var(--basic-black);
 }
-.main-navigation {
+.main-menu-bottom {
 	font-size: 18px;;
 	font-weight: 400;
 	line-height: 24px;
 	background: var(--basic-dark-blue);
+	font-family: "Cuprum",sans-serif;
 }
-.main-navigation-list {
+.main-menu-bottom-list {
 	list-style: none;
 }
-.main-navigation-list a {
+.main-menu-bottom-list a {
 	color: var(--basic-white);
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 24px;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 }
 .cite-navigation h2 {
 	display: none;
 }
 .materials {
 	background-color: #FFBF47;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 }
 .materials h3 {
 	font-size: 24px;
@@ -106,12 +104,12 @@ img {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 18px;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	color: var(--basic-white);
 }
 .instruments {
 	background: #3BBCE3;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 }
 .instruments h3 {
 	font-size: 24px;
@@ -123,12 +121,12 @@ img {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 18px;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	color: var(--basic-white);
 }
 .tehnika {
 	background: #DC91D8;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 }
 .tehnika h3 {
 	font-size: 24px;
@@ -140,12 +138,12 @@ img {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 18px;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	color: var(--basic-white);
 }
 .discounts {
 	background: #8ED78F;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 
 }
 .discounts h3 {
@@ -158,12 +156,12 @@ img {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 18px;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	color: var(--basic-white);
 }
 .delivery {
 	background: #FFC047;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 }
 .delivery h3 {
 	font-size: 24px;
@@ -175,7 +173,7 @@ img {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 18px;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	color: var(--basic-white);
 }
 .slider {
@@ -188,31 +186,38 @@ img {
 	font-weight: 400;
 	line-height: 24px;
 	color: var(--basic-white);
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 
 }
 .slider-item h1 {
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 36px;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
+	color: var(--basic-white);
+}
+.all-popular-products {
+	text-transform: uppercase;
+	background-color: var(--basic-red);
 	color: var(--basic-white);
 }
 .popular-products h2 {
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 30px;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
+	text-transform: uppercase;
+	color: var(--basic-dark-blue); /*цвет проверил*/
 }
 .all-popular-products {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 18px;
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	text-transform: uppercase;
 	}
 .popular-products h3 {
-	font-family: "PT Sans";
+	font-family: "PT Sans",sans-serif;
 	font-style: bold;
 	font-size: 18px;
 	line-height: 20px;
@@ -220,22 +225,24 @@ img {
 	color: var(--basic-black);
 }
 .buy {
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	font-style: "Regular";
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 400;
 	background: #63A63E;
     color: var(--basic-white);
+    text-transform: uppercase; /*регистр везде переделал*/
 }
 .to-bookmarks {
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	font-style: "Regular";
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 400;
 	background: var(--basic-white);
 	color: var(--basic-dark-blue);
+	text-transform: uppercase;
 }
 .cross-out {
 	font-family: "PT Sans";
@@ -256,20 +263,22 @@ img {
 	background: var(--basic-red);
 }
 .popular-brends h2 {
-	font-family: "Cuprum";
+	font-family: "Cuprum" sans-serif;
 	font-style: "Regular";
 	font-size: 30px;
 	line-height: 30px;
 	color: var(--basic-dark-blue);
+	text-transform: uppercase;
 }
 .all-brends {
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	font-style: "Regular";
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 400;
 	color: var(--basic-white);
 	background: var(--basic-red);
+	text-transform: uppercase; /*регистр переделал*/
 
 }
 .list-brends {
@@ -279,7 +288,7 @@ img {
 	list-style: none;
 }
 .dostavka {
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	font-style: "Bold";
 	font-size: 21px;
 	line-height: 30px;
@@ -288,7 +297,7 @@ img {
 	background-color: var(--basic-white);
 }
 .warranty {
-    font-family: "Cuprum";
+    font-family: "Cuprum",sans-serif;
 	font-style: "Bold";
 	font-size: 21px;
 	line-height: 30px;
@@ -297,7 +306,7 @@ img {
 	background-color: var(--basic-dark-blue);
 }
 .credit {
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	font-style: "Bold";
 	font-size: 21px;
 	line-height: 30px;
@@ -307,7 +316,7 @@ img {
 }
 }
 .services h2 {
-	font-family: "Cuprum"; /*не срабатывает*/
+	font-family: "Cuprum",sans-serif; /*не срабатывает*/
 	font-style: "Regular";
 	font-size: 30px;
 	line-height: 30px;
@@ -325,7 +334,7 @@ img {
 	list-style: none;
 }
 .service-list-answer h3{
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	font-style: "Regular";
 	font-size: 30px;
 	line-height: 30px;
@@ -342,7 +351,7 @@ img {
 }
 
 .tehnomart h2 {
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	font-style: "Regular";
 	font-size: 30px;
 	line-height: 30px;
@@ -362,7 +371,7 @@ img {
 	list-style: none;
 }
 .delivery-item {
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	font-style: "Regular";
 	font-size: 18px;
 	line-height: 24px;
@@ -370,15 +379,16 @@ img {
 	color: var(--basic-black);
 }
 .about-company {
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	font-style: "Regular";
 	font-size: 14px;
 	line-height: 18px;
 	color: var(--basic-white);
 	background-color: var(--basic-red);
+	text-transform: uppercase; /*регистр переделал у кнопок*/
 }
 .kontakts h3 {
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	font-style: "Regular";
 	font-size: 30px;
 	line-height: 30px;
@@ -394,13 +404,14 @@ img {
 	color: var(--basic-black);
 }
 .write-to-us {
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	font-style: "Regular";
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 400;
 	background-color: var(--basic-red);
 	color: var(--basic-white);
+	text-transform: uppercase;
 }
 .main-header-logo {
 }
@@ -416,7 +427,7 @@ img {
 	list-style: none;
 }
 .footer-list-item-up a {
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	font-style: "Regular";
 	font-size: 18px;
 	line-height: 24px;
@@ -428,7 +439,7 @@ img {
 	list-style: none;
 }
 .footer-list-navigation-down a {
-	font-family: "Cuprum";
+	font-family: "Cuprum",sans-serif;
 	font-style: "Regular";
 	font-size: 18px;
 	line-height: 24px;
@@ -440,7 +451,7 @@ img {
 	list-style: none;
 }
 .page-footer p {
-  font-family: "Cuprum";
+  font-family: "Cuprum",sans-serif;
   font-style: "Regular";
   font-size: 16px;
   line-height: 18px;
