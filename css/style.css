@@ -60,7 +60,7 @@ img {
 	color: var(--basic-dark-blue #32425C);
 }
 .phone-number {
-	text-transform: uppercase;
+	color: var(--basic-red);
 }
 .login-link,
 .registration {
