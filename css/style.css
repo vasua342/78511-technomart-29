@@ -314,7 +314,7 @@ img {
 	font-weight: 400;
 }
 .services p {
-	font-family: "PT Sans";
+	font-family: "PT Sans",sans-serif;
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: 400;
@@ -346,7 +346,7 @@ img {
 	text-transform: uppercase;
 }
 .tehnomart p {
-	font-family: "PT Sans";
+	font-family: "PT Sans",sans-serif;
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: 400;
@@ -379,8 +379,7 @@ img {
 	text-transform: uppercase;
 }
 .kontakts p {
-	font-family: "PT Sans";
-	font-style: "Regular";
+	font-family: "PT Sans",sans-serif;
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: 400;
